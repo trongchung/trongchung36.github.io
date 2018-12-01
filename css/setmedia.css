@@ -1,0 +1,123 @@
+
+
+@media (min-width:1200px) /* lg*/ {
+    .row_pc{
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+    .container{
+        width: 1200px;
+    }
+    .address_footer{
+      float: left;
+    }
+    .map_footer{
+      float: right;
+
+    }
+}
+
+@media (min-width:992px) and (max-width:1199px) /* md*/{
+    .header_top{
+      float: left;
+    }
+    .lang{
+      float: right;
+      margin-top: 10px;
+    }
+    #header{
+      margin-top: 62px;
+    }
+    .header_top{
+      padding-bottom: 0;
+    }
+    .hotline img{
+      margin-right: 5px;
+    }
+    .hotline_number{
+      margin-right: 10px;
+    }
+    .link_contact a{
+      margin-left: 0;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) /* sm*/{
+    .sc_header_menu.sticky-header{
+        position: relative !important;
+    }
+    .lang{
+      position: fixed;
+      top: 0;
+      z-index: 999;
+      right: 5px;
+    }
+    .link_contact{
+      text-align: left;
+    }
+
+}
+
+@media (max-width:767px) /* xs*/{
+    .sc_header_menu.sticky-header{
+        position: relative !important;
+    }
+    .lang{
+      position: fixed;
+      top: 0;
+      z-index: 999;
+      right: 5px;
+    }
+    .list_news .news_item{
+      width: 50%;
+    }
+    .list_news .news_item:first-child{
+      width: 100%;
+    }
+    .link_contact{
+      text-align: left;
+    }
+
+
+}
+
+@media (max-width:480px) {
+    .col-480-12{
+        width: 100% !important;
+    }
+    .col-480-6{
+        width: 50% !important;
+    }
+    .hidden-480{
+        display: none !important;
+    }
+    .visible-480{
+        display: block !important;
+    }
+    .search_drop .form_search{
+      width: 290px;
+    }
+    .box_phone{
+      flex-direction: column;
+      margin-bottom: 0;
+    }
+    .box_phone .phoneNumber{
+      margin-bottom: 20px;
+    }
+    .link_contact{
+      margin-top: 0;
+    }
+    .link_contact a{
+      margin-left: 0;
+
+    }
+    .hotline img{
+      display: none;
+    }
+
+}
+
+
+.visible-480{
+    display: none;
+}
